@@ -69,6 +69,7 @@ const getAjustesByProd = async (req, res) => {
     }
 }
 
+
 const getAjustesByProdId = async (req, res) => {
     try {
         const pro_id = req.params.pro_id
